@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>感謝您的卡片！</title>
+    <!-- JQurey 連結 -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js" integrity="sha512-STof4xm1wgkfm7heWqFJVn58Hm3EtS31XFaagaa8VMReCXAkQnJZ+jEy8PCC/iT18dFy95WcExNHFTqLyp72eQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!-- fullpage.js 連結 -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.9.7/jquery.fullpage.extensions.min.js"></script>
+    <!-- css連結 -->
+    <link rel="stylesheet" href="fullpage.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+</script>
+</head>
+<body>
+    <div id="fullpage">
+        <div class="section" id="section1">
+            <div class="banner">
+                <video autoplay muted>
+                  <source src="videos/1.mp4" type="video/mp4">
+                </video>
+              </div>
+        </div>
+
+        <div class="section" id="section2">
+            <div class="cover1">
+                <div class="banner">
+                    <video autoplay muted>
+                      <source src="videos/2.mp4" type="video/mp4">
+                    </video>
+                  </div>
+            </div>
+        </div>
+
+        <div class="section" id="section3">
+            <div class="cover2">
+                <div class="banner">
+                    <video autoplay muted>
+                      <source src="videos/3.mp4" type="video/mp4">
+                    </video>
+                  </div>
+            </div>
+        </div>
+
+    </div>
+
+    <script>
+        $(document).ready(function(){
+            $('#fullpage').fullpage();
+        })
+    </script>
+    
+
+</body>
+</html>
